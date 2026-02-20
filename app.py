@@ -55,4 +55,3 @@ if st.button("🚀 GERAR LAUDO E ENVIAR"):
         st.error("⚠️ Por favor, preencha o Nome do Paciente e carregue o Exame.")
 
 st.sidebar.write("---")
-st.sidebar.info(f"Monitorização: Gonçalves Muginga (954446205)")
