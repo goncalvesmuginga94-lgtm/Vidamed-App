@@ -64,6 +64,3 @@ with col2:
             st.success(f"Laudo gerado. Saldo restante: {st.session_state.saldo_creditos}")
         else:
             st.error("Preencha os dados e carregue o exame.")
-
-st.write("---")
-st.caption(f"ID da Licença: CAVI-2026 | Gestor: Gonçalves Muginga")
