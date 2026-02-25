@@ -121,4 +121,4 @@ with col2:
             st.error("Verifique os dados ou o saldo.")
 
 st.write("---")
-st.markdown("<center><p style='color:gray;'>SOCIALMED © 2026 | Marketing & Tecnologia</p></center>", unsafe_a
+st.markdown("<center><p style='color:gray;'>SOCIALMED © 2026 | Marketing & Tecnologia</p></center>", unsafe_allow_html=True)
