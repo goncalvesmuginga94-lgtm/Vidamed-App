@@ -1,5 +1,1 @@
-streamlit
-google-generativeai
-Pillow
-python-dotenv
-fpdf
+streamlit>=1.36,<2.0
