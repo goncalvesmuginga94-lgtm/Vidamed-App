@@ -137,7 +137,7 @@ elif page == "Interacções":
             owner=st.text_input("Responsável",value="Equipa de atendimento")
             if st.form_submit_button("Registar interacção",type="primary"):
                 p=next(x for x in patients if x["name"]==patient)
-                if channel in p["consent"] or channel=="Presencial":
+                if channel.casefold() in p["consent"].casefold() or channel=="Presencial":
                     st.session_state.interactions.insert(0,{"date":date.today(),"patient":patient,"channel":channel,"result":result,"owner":owner})
                     p["last_contact"]=date.today()
                     st.success("Interacção registada nesta sessão.")
